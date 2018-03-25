@@ -47,6 +47,7 @@ public class HomeScreen extends ActionBarActivity {
      * **********
      */
 
+    //initialize variables
     private ActionBarDrawerToggle drawerToggle;
     private String sendEmail;
     private static String reminderName;
