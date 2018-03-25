@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Email Settings">
+        <EditTextPreference
+            android:key="email_send"
+            android:summary="Change which email account all of your notes will be sent to."
+            android:title="Email for Sending Notes:"
+             />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Reminder Settings" >
+
+        <ListPreference
+            android:key="notification_sound"
+            android:entries="@array/notificationSoundSelect"
+            android:summary="Select the ringtone that will be played when the notification is displayed or choose 'none' to disable notification sounds."
+            android:entryValues="@array/notificationSoundFiles"
+            android:defaultValue="default"
+            android:title="Set Notification Ringtone" />
+
+        <CheckBoxPreference
+            android:key="notification_vibrate"
+            android:summary="Checking this box will cause the phone to vibrate when a notification is displayed. BY DEFAULT THE PHONE WILL VIBRATE WHEN A NOTIFICATION IS DISPLAYED. Uncheck to turn vibration off."
+            android:title="Vibrate Device When Notification Displayed"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

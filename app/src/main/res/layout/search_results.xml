@@ -1,0 +1,104 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true" >
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context="notes.development.kyles.notegenie.searchResults">
+
+            <include
+                android:id="@+id/tool_bar"
+                layout="@layout/tool_bar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+            </include>
+
+            <TextView
+                android:id="@+id/subjectResultsHeader"
+                android:layout_below="@+id/tool_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subjectResultsHeaderText"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_dark"
+                android:paddingTop="10dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"/>
+
+            <ListView
+                android:id="@+id/subjectResultsList"
+                android:layout_below="@+id/subjectResultsHeader"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_alignParentStart="true"
+                android:scrollbars="vertical">
+            </ListView>
+
+            <TextView
+                android:id="@+id/noteTextResultsHeader"
+                android:layout_below="@+id/subjectResultsList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/noteTextResultsHeaderText"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_dark"
+                android:paddingTop="10dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"/>
+
+            <ListView
+                android:id="@+id/noteTextResultsList"
+                android:layout_below="@+id/noteTextResultsHeader"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_alignParentStart="true"
+                android:scrollbars="vertical">
+            </ListView>
+
+            <TextView
+                android:id="@+id/reminderResultsHeader"
+                android:layout_below="@+id/noteTextResultsList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reminderResultsHeaderText"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_dark"
+                android:paddingTop="10dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"/>
+
+            <ListView
+                android:id="@+id/reminderResultsList"
+                android:layout_below="@+id/reminderResultsHeader"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:scrollbars="vertical">
+            </ListView>
+        </RelativeLayout>
+    </ScrollView>
+
+    <!-- Side navigation drawer UI -->
+    <ListView
+        android:id="@+id/navList"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#ffeeeeee"/>
+
+</android.support.v4.widget.DrawerLayout>

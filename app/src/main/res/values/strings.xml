@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Application Strings -->
+    <string name="app_name">Note Genie</string>
+    <string name="title_activity_note_screen">NoteScreen</string>
+
+    <!-- Database Strings -->
+    <string name="searchDatabase">Search</string>
+
+    <!-- User Interface Strings -->
+    <string name="newNote">Create Note</string>
+    <string name="noteTabHeader">To view a note tap the name of the note from the list below.  To edit, email, or delete a note, press and hold a note from the list
+        below until the note menu appears.  To search for a note press the search icon in the menu bar above.</string>
+    <string name="subjectTabHeader">To view all of the notes within a subject tap on the name of a subject from the list below.  To edit or delete a subject, press
+        and hold a subject from the list below until the subject menu appears.  To search for a subject press the search icon in the menu bar above.</string>
+    <string name="remindersTabHeader">To view, edit, and delete a reminder tap on the name of a reminder from the list below.  Reminders can be created by typing
+        keywords in your note such as \'quiz\', \'test\', \'remember\', any days of the week, \'due\', \'project\', \'presentation\', and \'study\'. </string>
+    <string name="noteEditHint">Tap here to type your note.</string>
+    <string name="noteEditHeaderText">Note Name</string>
+    <string name="reminderNameHeaderText">Reminder Name:</string>
+    <string name="reminderNameText">Name of the Reminder</string>
+    <string name="reminderDateHeader">Reminder Date:</string>
+    <string name="reminderTimeHeader">Reminder Time:</string>
+
+    <!-- Side Navigation Menu Strings -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_subject_tab">SubjectTab</string>
+    <string name="title_activity_notes_tab">NotesTab</string>
+    <string name="title_activity_reminders_tab">RemindersTab</string>
+    <string name="title_activity_subject_screen">SubjectScreen</string>
+
+    <!-- Search Interface Strings -->
+    <string name="search_hint">Search Notes and Reminders</string>
+    <string name="search_title">Search</string>
+    <string name="title_activity_search_results">searchResults</string>
+    <string name="subjectResultsHeaderText">Subject Results:</string>
+    <string name="noteTextResultsHeaderText">Note Results:</string>
+    <string name="reminderResultsHeaderText">Reminder Results:</string>
+    <string name="title_activity_create_note">CreateNote</string>
+
+    <!-- Create Note Strings -->
+    <string name="noteNameHeader">Note Name:</string>
+    <string name="noteNameHint">Tap here to type the name of your note.</string>
+    <string name="subjectNameHeader">Note Subject Name:</string>
+    <string name="subjectNameHint">Tap here to type the subject name of the note.</string>
+    <string name="noteTextHeader">Note Content:</string>
+    <string name="createNoteButton">Create Note</string>
+    <string name="cancelNoteButton">Cancel</string>
+    <string name="title_activity_notify_screen">NotifyScreen</string>
+
+    <!-- Subject Screen Strings -->
+    <string name="subjectNotesDisplayHeaderText">Notes:</string>
+    <string name="subjectRemindersDisplayHeaderText">Reminders:</string>
+
+    <!-- Note Screen Strings -->
+    <string name="newReminder">Create Reminder</string>
+
+    <!-- About String -->
+    <string name="aboutApplication">Unless required by law or agreed to in writing, this software is distributed "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either expressed or implied.
+        This software may be used for corporate and/or general public use, under the restriction that this SOFTWARE MAY NOT BE
+        DISTRIBUTED EXCEPT BY THE ORIGINAL DEVELOPER OR WITH PERMISSION. Please see the Google Play Terms of Service for more details.
+        \n\nNote Genie Copyright 2015 All Rights Reserved
+        \nCreated and Developed by Kyle Siler
+    </string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_settings_fragment">SettingsFragment</string>
+</resources>

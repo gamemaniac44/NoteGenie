@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="notes.development.kyles.notegenie.CreateNote">
+
+    <item
+        android:id="@+id/createReminder"
+        android:title="@string/newReminder"
+        android:icon="@drawable/ic_action_create_reminder"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" >
+    </item>
+</menu>

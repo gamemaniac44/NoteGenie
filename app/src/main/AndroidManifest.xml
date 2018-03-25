@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="notes.development.kyles.notegenie"
+    android:versionCode="101"
+    android:versionName="1.0.1" >
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/note_genie_app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".SubjectTab"
+            android:label="@string/title_activity_subject_tab" >
+        </activity>
+        <activity
+            android:name=".NotesTab"
+            android:label="@string/title_activity_notes_tab" >
+        </activity>
+        <activity
+            android:name=".RemindersTab"
+            android:label="@string/title_activity_reminders_tab" >
+        </activity>
+        <activity
+            android:name=".NoteScreen"
+            android:label="@string/title_activity_note_screen" >
+        </activity>
+        <activity
+            android:name=".SubjectScreen"
+            android:label="@string/title_activity_subject_screen" >
+        </activity>
+        <activity
+            android:name=".searchResults"
+            android:label="@string/title_activity_search_results" >
+        </activity>
+        <activity
+            android:name=".SearchResults"
+            android:label="@string/title_activity_search_results" >
+        </activity>
+        <activity
+            android:name=".CreateNote"
+            android:label="@string/title_activity_create_note" >
+        </activity>
+        <activity
+            android:name=".NotifyScreen"
+            android:label="@string/title_activity_notify_screen" >
+        </activity>
+
+        <service android:name=".util.ScheduleService" />
+        <service android:name=".util.NotifyService" />
+
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings">
+        </activity>
+        <activity
+            android:name=".SettingsFragment"
+            android:label="@string/title_activity_settings_fragment">
+        </activity>
+    </application>
+
+</manifest>

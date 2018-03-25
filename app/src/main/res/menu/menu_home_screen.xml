@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeScreen">
+    <item
+        android:id="@+id/createNote"
+        android:title="@string/newNote"
+        android:icon="@drawable/ic_action_notecreate"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" >
+    </item>
+
+    <item
+        android:id="@+id/search"
+        android:title="@string/searchDatabase"
+        android:icon="@drawable/ic_action_search"
+        android:hint="@string/search_hint"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom" >
+    </item>
+</menu>

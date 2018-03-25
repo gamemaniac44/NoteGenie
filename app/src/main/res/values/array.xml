@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notificationSoundSelect">
+        <item name="1">Default Phone Ringtone</item>
+        <item name="2">Futurestic</item>
+        <item name="3">Droid</item>
+        <item name="4">Galaxy</item>
+        <item name="5">Instrumental</item>
+        <item name="6">None</item>
+    </string-array>
+
+    <string-array name="notificationSoundFiles">
+        <item name="1">default</item>
+        <item name="2">future</item>
+        <item name="3">droid</item>
+        <item name="4">galaxy</item>
+        <item name="5">piano</item>
+        <item name="6">none</item>
+    </string-array>
+
+</resources>
